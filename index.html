@@ -22,6 +22,36 @@ Aditya Chellam
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!--navigation bar division-->
 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '158901541334177',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();   
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=158901541334177";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+
 <div class="container-fluid" style="background-color:#121212;color:#fff;height:70px;">
   <span style="float: right;"><button style=" background-color: #080808;margin-top: 24px; margin-right:8px;"><a href="AdityaChellamResume.pdf" download="Resume" style="color: #fff; text-decoration: none;">Download as PDF</a></button></span>
 
@@ -58,6 +88,11 @@ Aditya Chellam
 <div id="section1" class="bgimg-1 container-fluid">
   <img src="favicon.ico" style="width: 100px; height: 100px; margin-left: 620px; margin-top: 160px;">
   <span style="color: #fff; font-size: 24px; margin-left: 617px; text-shadow: 2px 2px 4px #000000; font-family: verdana;">Welcome</span>
+
+
+  <div class="fb-login-button" data-width="330" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
+
+
 </div>
 <div id="section3" class="bgimg-2 container-fluid">
 </div>
