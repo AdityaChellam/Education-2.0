@@ -20,13 +20,19 @@ body {
   margin-right: 400px;
   font-size: 1.2rem;
 }
-h1 {
+h1{
   text-align: center;
   font-size: 3rem;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
 }
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 #polina button { 
   display: block;
   width: 80%;
