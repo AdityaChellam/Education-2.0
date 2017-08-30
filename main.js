@@ -56,7 +56,7 @@
         }
     }
 
-    $.getJSON("C:/Users/Harsh Vardhan/Desktop/code/prediction.json", function(data) {
+    $.getJSON("C:/Users/Aditya Chellam/Desktop/code/prediction.json", function(data) {
         interpretations(_.sortBy(data.interpretations));
         predictions(_.sortBy(data.predictions, ["trait"]), _.sortBy(data.contributors, ["trait"]));
     });
